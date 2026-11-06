@@ -34,7 +34,7 @@ export const terms: LegalDocument = {
     {
       heading: "Changes",
       paragraphs: [
-        "If we change these Terms in a way that needs a new agreement, the app will ask you to Agree again. Draft web copies may later appear on awitstation.com; until then, this in-app copy applies.",
+        "If we change these Terms in a way that needs a new agreement, the app will ask you to Agree again.",
       ],
     },
   ],
@@ -46,7 +46,7 @@ export const privacy: LegalDocument = {
   title: "AwitStation Privacy Policy",
   version: "Version 2 · Bana Computing",
   intro:
-    "By tapping I Agree you acknowledge this policy. Draft web copies may later appear on awitstation.com; until then, this in-app copy applies.",
+    "By tapping I Agree you acknowledge this policy.",
   sections: [
     {
       heading: "On your device",

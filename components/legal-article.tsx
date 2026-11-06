@@ -1,4 +1,3 @@
-import { draftNote } from "@/lib/site";
 import type { LegalDocument } from "@/lib/legal";
 
 function sectionId(heading: string) {
@@ -11,10 +10,6 @@ function sectionId(heading: string) {
 export function LegalArticle({ document }: { document: LegalDocument }) {
   return (
     <article className="legal">
-      <p className="draft-note">
-        <span className="draft-label">Draft</span>
-        <span>{draftNote}</span>
-      </p>
       <h1>{document.title}</h1>
       <p className="legal-version">{document.version}</p>
       <p>{document.intro}</p>
