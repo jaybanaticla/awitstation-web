@@ -11,6 +11,3 @@ export const ogImage = {
   height: 630,
   alt: "AwitStation microphone icon and wordmark",
 } as const;
-
-export const draftNote =
-  "Version 2 web copy. The in-app copy applies until this page is final.";
