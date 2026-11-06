@@ -1,0 +1,2 @@
+/** Runs before paint so the saved theme wins over the dark default. */
+export const themeInitScript = `(function(){try{var stored=localStorage.getItem("awit-theme");var theme=stored==="light"||stored==="dark"?stored:"dark";var root=document.documentElement;root.setAttribute("data-theme",theme);root.style.colorScheme=theme;var color=theme==="light"?"#F8FAFC":"#0F172A";var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute("content",color);}catch(e){}})();`;
